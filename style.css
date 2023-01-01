@@ -1,8 +1,17 @@
+body {
+    min-height: 100vh;
+}
+
+html {
+    height: 100%;
+}
+
 h1 {
     text-align: center;
     color: gray;
     background-color: bisque;
     font-family: fantasy;
+    font-size: 300%;
 }
 
 h3 {
@@ -21,11 +30,34 @@ h3 {
 }
 
 #j-bio {
-    text-align: right;
     display: block;
+    width: 400px;
+    float: right;
+    padding: 30px;
+    background-color: aqua;
 }
 
 #e-bio {
     text-align: left;
+    width: 400px;
     display: block;
+    background-color:brown;
+}
+
+#intro {
+    width: 600px;
+    display: block;
+    text-align: left;
+    background-color: pink;
+}
+
+#services {
+    padding-top: 220px;
+    text-align: left;
+}
+
+#serving {
+    display: block;
+    width: 450px;
+    font-size: 110%;
 }
