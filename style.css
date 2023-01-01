@@ -1,3 +1,31 @@
-body  {
-    background:  blue;
+h1 {
+    text-align: center;
+    color: gray;
+    background-color: bisque;
+    font-family: fantasy;
+}
+
+h3 {
+    text-align: center;
+    font-style: oblique;
+    color: black;
+    opacity: 0.75
+}
+
+#ab, #services, #apply, #quote {
+    color: pink;
+}
+
+#Josie {
+    text-align: right;
+}
+
+#j-bio {
+    text-align: right;
+    display: block;
+}
+
+#e-bio {
+    text-align: left;
+    display: block;
 }
