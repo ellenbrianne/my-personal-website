@@ -11,7 +11,7 @@
         <p id="intro"> Pet adventures is a locally owned and operated company, fronted by us, Ellen and Josie. We have a german shepherd, Max, and a kitty, Momo, of our own. While we enjoy them immensely, we love to offer the same joys we give our pets to others. Take a look at some of our services while you're here!</p>
             <h4 id="Ellen">Ellen</h4>
                 <img src="./e-headshot-1.jpg" alt="Ellen Headshot" height="200px">
-                    <p id="e-bio">Hi! I'm Ellen. I'm 26 years old, a nurse, and a software engineering student of Flatiron. I love our two pets and adventuring with all four us. Hiking, creating new projects, making things aesthetically pleasing, enjoying myself and those around me, and solving problems are some of my favorite things!</p>
+                    <p id="e-bio">Hi! I'm Ellen. I'm 26 years old, a nurse, and a software engineering student of Flatiron. I love our two pets and adventuring with all four of us. Hiking, creating new projects, making things aesthetically pleasing, enjoying myself and those around me, and solving problems are some of my favorite things!</p>
                         <h4 id="Josie">Josie</h4>
                             <img src="./Josie.jpg" alt="Josie Headshot" height="300px" width="200px" id="J-Headshot" style="float: right">
                                 <p id="j-bio">Josie is 27 years old, a flight simtech, and learning cybersecurity! She loves her Max, her Mo, and her me. :) She enjoys all things challenging, outdoors, and intellectually stimulating. Your pets will LOVE a day with her.</p>
@@ -22,14 +22,68 @@
                 <li>Hiking, swimming, running</li>
                 <li>Spying on neighbors</li>
                 <li>Bathtime</li>
-                <li>Group lounging</li>
             </ul>
         </p>
             <img src="" alt>
     <h2 id="apply">Application</h2>
-        <p>Fill out our brief application, and tell us about your pet!</p>
+        <p id="applyDescript">Fill out our brief application, and tell us about your pet!</p>
+        <form class="application">
+            <label for="yourName">Your name:</label><br>
+            <input type="text" id="yourName" name="yourName"><br>
+                <label for="contact">Email:</label><br>
+                <input type="text" id="contact" name="contact"><br>
+                    <label for="petName">Pet's name:</label><br>
+                    <input type="text" id="petName" name="petName"><br>
+                        <label for="petBreed">Pet's breed:</label><br>
+                        <input type="text" id="petBreed" name="petBreed"><br>
+                            <label for="petAge">Pet's age:</label><br>
+                            <input type="text" id="petAge" name="petAge"><br>
+                                <label for="petGender">Pet's gender:</label><br>
+                                <input type="text" id="petGender" name="petGender"><br>
+                                    <form>Select one or more of the following adventures!<br>
+                                    <input type="checkbox" id="adventure1" name="adventure1" value="Indoor">
+                                    <label for="adventure1"> Indoor</label><br>
+                                    <input type="checkbox" id="adventure2" name="adventure2" value="Outdoor">
+                                    <label for="adventure2"> Outdoor</label><br>
+                                    <input type="checkbox" id="adventure3" name="adventure3" value="Mischieving ">
+                                    <label for="adventure3"> Mischieving</label>
+                                    </form><br>
+                                        <!-- <form class="submit1">
+                                            <input type="submit" value="Submit">
+                                        </form> -->
+                                        <form id="app">
+                                            <button type="submit">Submit Application</button>
+                                        </form>
+        </form>
     <h2 id="quote">Get A Quick Quote!</h2>
-        <p>Answer these short questions and get a free initial quote.</p>
+        <p>Select one option from each of the following categories and get a "ruff" estimate of our pricing:</p>
+            <form class="activities"><strong>Activities</strong><br>
+                <input type="radio" id="insideActivity" name="activity" value="Indoor">
+                <label for="insideActivity">Indoor</label><br>
+                    <input type="radio" id="outsideActivity" name="activity" value="Outdoor">
+                    <label for="outsideActivity">Outdoor</label><br>
+                        <input type="radio" id="mischievous" name="activity" value="Michieving">
+                        <label for="mischievous">Mischieving</label><br>
+                        </form>
+                        <form class="pals"><strong>Pal</strong><br>
+                            <input type="radio" id="el" name="pal" value="Ellen">
+                            <label for="el">Ellen</label><br>
+                                <input type="radio" id="jos" name="pal" value="Josie">
+                                <label for="jos">Josie</label><br>
+                                    <input type="radio" id="both" name="pal" value="Both">
+                                    <label for="both">Both</label>
+                                    </form>
+                                    <form class="time"><strong>Adventuring Time</strong><br>
+                                        <input type="radio" id="four" name="hours" value="four">
+                                        <label for="four">4 hours</label><br>
+                                            <input type="radio" id="six" name="hours" value="six">
+                                            <label for="six">6 hours</label><br>
+                                                <input type="radio" id="eight" name="hours" value="eight">
+                                                <label for="eight">8 hours</label> 
+                                                </form><br>
+                                                <form class="submit2" action="/action_page.php">
+                                                    <input type="submit" value="Submit">
+                                                </form>
     <script src="script.js"></script>
   </body>
 </html>

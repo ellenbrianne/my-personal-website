@@ -1,4 +1,7 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
+const app = document.getElementById('app');
 
-document.querySelector('body').appendChild(h2);
+app.addEventListener('submit', submitApp);
+
+function submitApp (event) {
+    alert('Thank you for submitting your application! You will hear from us very soon. :)');
+};

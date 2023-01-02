@@ -1,5 +1,6 @@
 body {
     min-height: 100vh;
+    background: beige;
 }
 
 html {
@@ -45,10 +46,11 @@ h3 {
 }
 
 #intro {
-    width: 600px;
+    width: 900px;
     display: block;
     text-align: left;
     background-color: pink;
+    font-size: 120%
 }
 
 #services {
@@ -60,4 +62,35 @@ h3 {
     display: block;
     width: 450px;
     font-size: 110%;
+}
+
+.pals {
+    padding-left: 150px;
+    padding-top: 30px;
+}
+
+.time {
+    padding-left: 300px;
+    padding-top: 30px;
+}
+
+.application {
+    text-align: right;
+}
+
+.submit1 {
+    text-align: right;
+}
+
+#apply {
+    text-align: right;
+    padding-top: 100px;
+}
+
+#applyDescript {
+    text-align: right;
+}
+
+#app {
+    text-align: right;
 }
