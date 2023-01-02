@@ -26,6 +26,10 @@ h3 {
     color: pink;
 }
 
+#quote {
+    padding-top: 100px;
+}
+
 #Josie {
     text-align: right;
 }
@@ -75,22 +79,51 @@ h3 {
 }
 
 .application {
-    text-align: right;
-}
-
-.submit1 {
-    text-align: right;
+    text-align: center;
 }
 
 #apply {
-    text-align: right;
+    text-align: center;
     padding-top: 100px;
 }
 
 #applyDescript {
-    text-align: right;
+    text-align: center;
 }
 
 #app {
-    text-align: right;
+    text-align: center;
+}
+
+img#boat {
+    margin-left: 50px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+}
+
+img#mo-beach {
+    margin-right: 300px;
+    margin-bottom: 50px;
+}
+
+img#spy {
+    margin-left: 100px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+}
+
+img#hat {
+    margin-right: 300px;
+    margin-bottom: 50px;
+}
+
+img#bath {
+    margin-left: 50px;
+    margin-right: 400px;
+}
+
+div.pet-pics {
+    padding-top: 100px;
+    background-color: lightblue;
+    max-height: 1630px;
 }
