@@ -68,16 +68,6 @@ h3 {
     font-size: 110%;
 }
 
-.pals {
-    padding-left: 150px;
-    padding-top: 30px;
-}
-
-.time {
-    padding-left: 300px;
-    padding-top: 30px;
-}
-
 .application {
     text-align: center;
 }
@@ -126,4 +116,5 @@ div.pet-pics {
     padding-top: 100px;
     background-color: lightblue;
     max-height: 1630px;
-}
+};
+
