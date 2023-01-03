@@ -87,17 +87,23 @@ h3 {
 
 img#boat {
     margin-left: 50px;
-    margin-right: 300px;
+    margin-right: 200px;
     margin-bottom: 50px;
 }
 
 img#mo-beach {
-    margin-right: 300px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+}
+
+img#kiss-mat {
+    margin-left: 150px;
+    margin-right: 100px;
     margin-bottom: 50px;
 }
 
 img#spy {
-    margin-left: 100px;
+    margin-left: 200px;
     margin-right: 300px;
     margin-bottom: 50px;
 }
@@ -105,6 +111,10 @@ img#spy {
 img#hat {
     margin-right: 300px;
     margin-bottom: 50px;
+}
+
+img#flower-mat {
+    margin-left: 50px;
 }
 
 img#bath {
@@ -115,6 +125,6 @@ img#bath {
 div.pet-pics {
     padding-top: 100px;
     background-color: lightblue;
-    max-height: 1630px;
+    max-height: 2350px;
 };
 

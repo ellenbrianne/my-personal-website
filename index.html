@@ -27,10 +27,10 @@
         <div class="pet-pics">
             <img id="boat" src="boat-mat.jpg" title="Max on a boat" width="400px">
             <img id="mo-beach" src="mo-beach.jpg" title="Mo on the beach" width="400px" height="500px">
-            <img src="kiss-mat.jpg" title="Loving on Max" width="400px"><br>
+            <img id="kiss-mat" src="kiss-mat.jpg" title="Loving on Max" width="400px"><br>
             <img id="spy" src="i-spy-mo.jpg" title="Mischevious Mo" width="300px">
             <img id="hat" src="mat-hat.jpg" title="Max in a hat" width="300px">
-            <img src="flower-mat.jpg" title="Max in some flowers" width="500px"><br>
+            <img id="flower-mat" src="flower-mat.jpg" title="Max in some flowers" width="500px"><br>
             <img id="bath" src="mat-mo-bath.jpg" title="Max & Mo playing" width="300px">
             <img src="mat-beach.jpg" title="Max & Josie on the beach" width="400px>"
         </div>
@@ -61,32 +61,34 @@
                                             <button type="submit">Submit Application</button>
                                         </form>
         </form>
-    <h2 id="quote">Get A Quick Quote!</h2>
+    <h2 id="quote">Pricing</h2><br>
         <p>Select one option from each of the following categories and get a "ruff" estimate of our pricing:</p>
-            <form><br>
-                <p><strong>Activity</strong></p>
-                <input type="radio" id="inside" name="adventure" value="Inside">
-                <label for="inside">Inside</label><br>
-                    <input type="radio" id="outside" name="adventure" value="Outside">
-                    <label for="outside">Outside</label><br>
-                        <input type="radio" id="mischievous" name="adventure" value="Mischievous">
-                        <label for="mischievous">Mischievous</label>
-                            <p><strong>Pal</strong></p>
-                            <input type="radio" id="el" name="pal" value="Ellen">
-                            <label for="el">Ellen</label><br>
-                                <input type="radio" id="jos" name="pal" value="Josie">
-                                <label for="jos">Josie</label><br>
-                                    <input type="radio" id="both" name="pal" value="Both">
-                                    <label for="both">Both</label><br>
-                                        <p><strong>Time</strong></p>
-                                        <input type="radio" id="four" name="time" value="four">
-                                        <label for="four">4 hours</label><br>
-                                            <input type="radio" id="six" name="time" value="six">
-                                            <label for="six">6 hours</label><br>
-                                                <input type="radio" id="eight" name="time" value="eight">
-                                                <label for="eight">8 hours</label><br><br>
-                                                    <input id="clicky" type="button" value="get your quote"></input>
-             </form>
+            <form>
+                <p><strong>Adventure</strong></p>
+                <input class="cheap" type="radio" id="insideActivity" name="insideActivity" value="Indoor">
+                <label for="insideActivity">Indoor</label><br>
+                <input class="upgrade" type="radio" id="outsideActivity" name="outsideActivity" value="Outdoor">
+                <label for="outsideActivity">Outdoor</label><br>
+                <input class="premium" type="radio" id="mischievous" name="mischievous" value="Mischievous">
+                <label for="mischievous">Mischievous</label><br>
+                    <p><strong>Pal</strong></p>
+                    <input class="cheap" type="radio" id="ellen" name="ellen" value="Ellen">
+                    <label for="ellen">Ellen</label><br>
+                    <input class="upgrade" type="radio" id="josie" name="josie" value="Josie">
+                    <label for="josie">Josie</label><br>
+                    <input class="premium" type="radio" id="both" name="both" value="Both">
+                    <label for="both">Both</label><br>
+                        <p><strong>Time</strong></p>
+                        <input class="cheap" type="radio" id="four" name="four" value="Four">
+                        <label for="four">4 hours</label><br>
+                        <input class="upgrade" type="radio" id="six" name="six" value="Six">
+                        <label for="six">6 hours</label><br>
+                        <input class="premium" type="radio" id="eight" name="eight" value="Eight">
+                        <label for="eight">8 hours</label><br>
+                </form><br>
+                    <form id="cost">
+                        <button type="submit">Get Quote</button>
+                    </form>
     <script src="script.js"></script>
   </body>
 </html>
