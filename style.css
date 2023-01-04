@@ -125,6 +125,6 @@ img#bath {
 div.pet-pics {
     padding-top: 100px;
     background-color: lightblue;
-    max-height: 2350px;
+    max-height: auto;
 };
 

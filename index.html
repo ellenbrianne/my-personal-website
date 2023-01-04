@@ -27,12 +27,12 @@
         <div class="pet-pics">
             <img id="boat" src="boat-mat.jpg" title="Max on a boat" width="400px">
             <img id="mo-beach" src="mo-beach.jpg" title="Mo on the beach" width="400px" height="500px">
-            <img id="kiss-mat" src="kiss-mat.jpg" title="Loving on Max" width="400px"><br>
+            <img id="kiss-mat" src="kiss-mat.jpg" title="Loving on Max" width="400px">
             <img id="spy" src="i-spy-mo.jpg" title="Mischevious Mo" width="300px">
             <img id="hat" src="mat-hat.jpg" title="Max in a hat" width="300px">
-            <img id="flower-mat" src="flower-mat.jpg" title="Max in some flowers" width="500px"><br>
+            <img id="flower-mat" src="flower-mat.jpg" title="Max in some flowers" width="500px">
             <img id="bath" src="mat-mo-bath.jpg" title="Max & Mo playing" width="300px">
-            <img src="mat-beach.jpg" title="Max & Josie on the beach" width="400px>"
+            <img src="mat-beach.jpg" title="Max & Josie on the beach" width="400px">
         </div>
     <h2 id="apply">Application</h2>
         <p id="applyDescript">Fill out our brief application, and tell us about your pet!</p>
@@ -63,32 +63,32 @@
         </form>
     <h2 id="quote">Pricing</h2><br>
         <p>Select one option from each of the following categories and get a "ruff" estimate of our pricing:</p>
-            <form>
-                <p><strong>Adventure</strong></p>
-                <input class="cheap" type="radio" id="insideActivity" name="insideActivity" value="Indoor">
+        <form id="pricingGuide">       
+            <p><strong>Adventure</strong></p>
+                <input class="cheap" type="radio" id="insideActivity" name="adventure" value="50">
                 <label for="insideActivity">Indoor</label><br>
-                <input class="upgrade" type="radio" id="outsideActivity" name="outsideActivity" value="Outdoor">
+                <input class="upgrade" type="radio" id="outsideActivity" name="adventure" value="100">
                 <label for="outsideActivity">Outdoor</label><br>
-                <input class="premium" type="radio" id="mischievous" name="mischievous" value="Mischievous">
+                <input class="premium" type="radio" id="mischievous" name="adventure" value="150">
                 <label for="mischievous">Mischievous</label><br>
-                    <p><strong>Pal</strong></p>
-                    <input class="cheap" type="radio" id="ellen" name="ellen" value="Ellen">
+            <p><strong>Pal</strong></p>
+                    <input class="cheap" type="radio" id="ellen" name="pal" value="50">
                     <label for="ellen">Ellen</label><br>
-                    <input class="upgrade" type="radio" id="josie" name="josie" value="Josie">
+                    <input class="upgrade" type="radio" id="josie" name="pal" value="100">
                     <label for="josie">Josie</label><br>
-                    <input class="premium" type="radio" id="both" name="both" value="Both">
+                    <input class="premium" type="radio" id="both" name="pal" value="150">
                     <label for="both">Both</label><br>
-                        <p><strong>Time</strong></p>
-                        <input class="cheap" type="radio" id="four" name="four" value="Four">
+            <p><strong>Time</strong></p>
+                        <input class="cheap" type="radio" id="four" name="time" value="50">
                         <label for="four">4 hours</label><br>
-                        <input class="upgrade" type="radio" id="six" name="six" value="Six">
+                        <input class="upgrade" type="radio" id="six" name="time" value="100">
                         <label for="six">6 hours</label><br>
-                        <input class="premium" type="radio" id="eight" name="eight" value="Eight">
+                        <input class="premium" type="radio" id="eight" name="time" value="150">
                         <label for="eight">8 hours</label><br>
-                </form><br>
-                    <form id="cost">
-                        <button type="submit">Get Quote</button>
-                    </form>
+        </form><br>
+        <form id="cost">
+            <button type="submit">Get Quote</button>
+        </form>
     <script src="script.js"></script>
   </body>
 </html>
